@@ -15,6 +15,11 @@ The idea is simple:
 
 I'm developing NextMarga from an early MVP toward a real platform with student profiles, personalized opportunity discovery, career roadmaps, AI-assisted guidance, and verified opportunity information.
 
+### Tech Cafe
+**Tech Cafe** is a campus-focused project exploring a digital experience for campus food and cafe discovery, with a foundation that can be expanded into a more complete student utility platform.
+
+🔗 [View the Tech Cafe repository](https://github.com/rkaif8314-a11y/tech-cafe)
+
 ## 💻 Tech & Tools
 
 `Python` · `JavaScript` · `React` · `HTML/CSS` · `Node.js` · `Git` · `GitHub` · `SQLite` · `Flask` · `Vite` · `Capacitor`
@@ -32,6 +37,7 @@ I'm developing NextMarga from an early MVP toward a real platform with student p
 | Project | What it is |
 | --- | --- |
 | **NextMarga** | Personalized opportunity discovery & career roadmap platform for students |
+| **Tech Cafe** | Campus food/cafe discovery and student utility project |
 | **School Record Management System** | Python/SQLite-based academic data management project |
 
 ## 🎯 What I Care About
