@@ -20,6 +20,11 @@ I build practical software projects while learning full-stack development, DSA, 
 
 ## Featured Projects
 
+### ☼ [SkyLume Weather](https://github.com/rkaif8314-a11y/skylume-weather)
+A polished weather dashboard with live weather data, location detection, saved locations, city search, 7-day forecasts, unit switching, and customizable website themes.
+
+**Focus:** Open-Meteo API · geolocation · responsive UI · persistent preferences · Dark/Light/Ocean/Sunset/Forest themes · Vercel deployment
+
 ### 🧭 [NextMarga](https://github.com/rkaif8314-a11y/NextMarga)
 A student opportunity and career-roadmap platform for discovering scholarships, competitions, examinations, internships, research opportunities, hackathons, jobs, and career pathways.
 
@@ -79,6 +84,7 @@ A small interactive game project built while practicing programming and applicat
 
 | Area | Projects / Focus |
 | --- | --- |
+| 🌦️ Weather | SkyLume, live API-driven utility apps |
 | 🎓 Education | NextMarga, student tools |
 | 🤖 AI | AI-assisted applications |
 | 🌐 Web | React, Next.js, full-stack apps |
