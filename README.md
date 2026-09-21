@@ -41,7 +41,7 @@ A campus-focused technology project exploring a digital experience for students 
 ### 🎓 [IIT Bhilai Student Record Management System](https://github.com/rkaif8314-a11y/IIT-BHILAI-RECORD-SYSTEM-TO-STUDENT-RECORD-MANAGEMENT-SYSTEM)
 An academic record-management project focused on organizing student information and academic data.
 
-### 🧠 [DSA & LeetCode Practice](https://github.com/rkaif8314-a11y/DSA-Data-structure-algorithm-)
+### 🧠 [DSA & LeetCode Practice](https://github.com/rkaif8314-a11y/Leetcode-TUF-DSA-problems-)
 A collection of data-structures and algorithms work as I build stronger problem-solving fundamentals.
 
 ### 🎮 [Sliding Game](https://github.com/rkaif8314-a11y/SLIDING-GAME-PROJECT)
