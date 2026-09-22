@@ -1,0 +1,45 @@
+name: Profile README checks
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+permissions:
+  contents: read
+
+concurrency:
+  group: profile-readme-${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v6
+      - name: Validate README links and whitespace
+        run: |
+          python - <<'PY'
+          import re
+          from pathlib import Path
+
+          readme = Path('README.md')
+          if not readme.exists():
+              raise SystemExit('README.md is missing')
+
+          text = readme.read_text(encoding='utf-8')
+          if 'javascript:' in text.lower():
+              raise SystemExit('README contains a javascript: URL')
+
+          for target in re.findall(r'!?\[[^\]]*\]\(([^)\s]+)', text):
+              if target.startswith(('#', 'http://', 'https://', 'mailto:')):
+                  continue
+              path = Path(target.split('#', 1)[0])
+              if path and not path.exists():
+                  raise SystemExit(f'Missing README target: {target}')
+
+          print('Profile README links look valid.')
+          PY
+          git diff --check
