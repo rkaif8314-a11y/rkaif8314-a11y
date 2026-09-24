@@ -94,6 +94,12 @@ A small interactive game project built while practicing programming and applicat
 
 ---
 
+## Recent Engineering Focus
+
+- Improving application reliability with rollback-safe cloud updates
+- Hardening authentication and AI request handling
+- Adding validation and deployment checks to project workflows
+
 ## GitHub Goals
 
 I use GitHub to document my learning, build real projects, experiment with new technologies, and gradually turn prototypes into reliable software.
